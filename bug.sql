@@ -1,0 +1,1 @@
+The SQL query uses a subquery in the WHERE clause that returns more than one row, leading to an error because the comparison operator (=) expects a single value.  This often happens when a JOIN would be more appropriate.  The subquery should be designed to return only one row, or the query should be rewritten using JOINs.
